@@ -1,0 +1,276 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-image img{
+    width: 800px;
+    height: 500px;
+}
+.bg-image{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.bg-text{
+    position: absolute;
+    top: 0;
+    padding: 150px;
+    color: white;
+
+}
+.span{
+    font-size: 40px;
+}
+
+.bg-p{
+    font-size: 18px;
+    
+}
+.btn{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    border: 1px solid tomato;
+    text-align: center;
+}
+
+.donate{
+    text-align: center;
+    padding: 30px;
+}
+
+.donate-p{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 50px;
+    font-size: 30px;
+    margin: 50px;
+    
+
+}
+.list-num{
+    border: 1px solid ghostwhite;
+    padding: 25px;
+    background-color: ghostwhite;
+    height: 100px;
+    color: gray;
+}
+.list-num-2{
+    border: 3px solid tomato;
+    padding: 25px;
+    background-color: darksalmon;
+    color: tomato;
+}
+
+.amount{
+    text-align: center;
+    color: gray;
+}
+
+.btn-2{
+    padding: 10px;
+    margin-left: 390px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.donate-text{
+    text-align: center;
+    font-size: 30px;
+}
+.donate-p-2{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+}
+.Main-container{
+    display: flex;
+    gap: 20px;
+    padding: 70px;
+}
+.container{
+    background-color: lightcyan;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 20px;
+}
+.text-title{
+    font-weight: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.text-paragraph{
+    color: #757575;
+}
+
+.container-shelter{
+    background-color: mistyrose;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 20px;
+}
+.container-education{
+    background-color: antiquewhite;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 20px;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+    padding: 10px;
+}
+
+.image-2 img{
+    max-width: 300px;
+    height: 300px;
+    margin-right: 150px;
+    padding: 20px;
+}
+.image-2{
+    flex: 2;
+    text-align: right;
+}
+.text-2{
+    font-size: 30px;
+    margin-left: 120px;
+
+}
+.paragraph-2{
+    font-size: 15px;
+    margin-left: 110px;
+    padding: 10px;
+    color: gray;
+}
+.btn-3{
+    padding: 10px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 20px;
+    color: white;
+}
+.container-3{
+    display: flex;
+    align-items: center;
+}
+.image-3 img{
+    max-width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.image-3{
+    flex: 1;
+    text-align: left;
+}
+.text-3{
+    flex: 1;
+    padding: 10px;
+}
+.paragraph-3{
+    color: gray;
+    padding: 10px;
+    margin-right: 90px;
+    
+}
+.btn-4{
+    padding: 10px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-right: 95px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.text-4{
+    font-size: 30px;
+    margin-right: 100px;
+    padding: 20px;
+}
+.main-text{
+    text-align: center;
+    padding: 20px;
+}
+.text-5{
+    padding: 20px;
+    margin-left: 50px;
+
+}
+.paragraph-4{
+    font-size: 16px;
+    color: gray;
+    margin-left: 220px;
+    margin-right: 150px;
+}
+.input{
+    padding: 10px;
+    text-align: center;
+}
+#email{
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: lightgrey;
+}
+.btn-5{
+    padding: 7px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+}
+.main-input{
+    border: 1px solid cornsilk;
+    margin: 180px 180px 180px;
+    padding: 30px;
+    background-color: cornsilk;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    
+    
+}
+
+.humble{
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    margin: 10px;
+
+}
+.italic{
+    font-size: 30px;
+    color: red;
+}
+.p{
+    font-size: 15px;
+    color: white;
+    
+}
+
